@@ -1,0 +1,21 @@
+{
+  "name": "playwright_typescript_2",
+  "version": "1.0.0",
+  "description": "Small TypeScript starter project.",
+  "main": "dist/demo_class/Helloworld.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch",
+    "start": "npm run build && node dist/demo_class/Helloworld.js",
+    "test": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
